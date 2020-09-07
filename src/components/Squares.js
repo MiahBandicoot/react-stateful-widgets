@@ -42,8 +42,7 @@ const [activeSquare,setActiveSquare] = useState(null)
     // the currently active square id back to initial state).
     
     id===activeSquare ? setActiveSquare(null) : setActiveSquare(id)
-    console.log(activeSquare)
-    
+        
   };
 
   return (
